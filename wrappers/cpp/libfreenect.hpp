@@ -34,7 +34,7 @@
 #define HAVE_STRUCT_TIMESPEC
 #endif
 #include <pthread.h>
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 namespace Freenect {
 	class Noncopyable {
